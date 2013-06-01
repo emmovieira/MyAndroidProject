@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Measures</string>
+    <string name="menu_settings">Settings</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="bmi">B.M.I</string>
+    <string name="btn_gravar">Gravar Dados</string>
+    <string name="hint_bmi">Valor Calculado do seu Índice de Massa Corporea</string>
+    <string name="hint_peso">Informe seu peso (99.99)</string>
+    <string name="hint_altura">Informe sua altura (99.99)</string>
+    <string name="Data">Data</string>
+    <string name="hint_cintura">Informe  sua Cintura (cm)</string><string name="cintura">Cintura</string>
+    
+    <string name="hint_data">dd/mm/aaaa</string>
+    <string name="gordura">Gordura</string>
+    <string name="hint_gordura">% gordura (99.99)</string>
+</resources>

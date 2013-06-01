@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tblEntrada"
+    android:layout_width="match_parent"
+   	android:padding="5dp"
+    android:layout_height="match_parent" >
+    
+
+					
+	<TableRow 
+	     android:id="@+id/widget60"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+	 	
+	    <TextView
+	        android:id="@+id/lblDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Data"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	 
+	    <EditText
+	        android:id="@+id/tvDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+            android:inputType="numberDecimal"
+            android:textSize="12sp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    	    
+    </TableRow>
+	
+	<TableRow
+         android:id="@+id/widget50"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/widget47"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/altura" />
+
+         <EditText
+             android:id="@+id/altura"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="@string/hint_altura"
+             android:inputType="numberDecimal"
+             android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+         android:id="@+id/widget45"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/widget48"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/peso" />
+
+         <EditText
+             android:id="@+id/peso"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="@string/hint_peso"
+             android:inputType="numberDecimal"
+             android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+         android:id="@+id/widget46"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/TextView01"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/cintura" />
+
+         <EditText
+             android:id="@+id/cintura"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="@string/hint_cintura"
+             android:inputType="numberDecimal"
+             android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+         android:id="@+id/tableRow2"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/TextView02"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/gordura" />
+
+         <EditText
+             android:id="@+id/gordura"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="@string/hint_gordura"
+             android:inputType="numberDecimal"
+             android:textSize="12sp" />
+    </TableRow>
+
+    <TableRow
+         android:id="@+id/tableRow1"
+         android:layout_width="fill_parent"
+         android:layout_height="match_parent"
+         android:gravity="right"
+         android:orientation="horizontal"
+         android:paddingTop="15dp"
+         android:visibility="visible" >
+
+         <Button
+             android:id="@+id/btn_gravar"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_gravity="right"
+             android:onClick="CalcResult"
+             android:text="@string/btn_gravar" />
+         <Button
+             android:id="@+id/btn_deletar"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_gravity="right"
+             android:onClick="DeletaArquivo"
+             android:text="Deletar" />
+         </TableRow>
+
+    <TableRow
+         android:id="@+id/tableRow3"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/widget49"
+             android:layout_height="wrap_content"
+             android:text="@string/bmi" />
+
+         <EditText
+             android:id="@+id/bmi"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="@string/hint_bmi"
+             android:textSize="12sp" />
+    </TableRow>
+
+
+ </TableLayout>
